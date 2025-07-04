@@ -1,0 +1,140 @@
+:root {
+  --bg: linear-gradient(135deg, #1f1c2c, #928dab);
+  --text: #ffffff;
+  --input-bg: rgba(255, 255, 255, 0.08);
+  --btn-hover: rgba(255, 255, 255, 0.15);
+  --equal: #fb7c14;
+  --operator: #6dee0a;
+  --glass: rgba(255, 255, 255, 0.05);
+}
+
+.light {
+  --bg: linear-gradient(135deg, #f0f0f0, #ffffff);
+  --text: #111;
+  --input-bg: rgba(0, 0, 0, 0.08);
+  --btn-hover: rgba(0, 0, 0, 0.1);
+  --equal: #ff5722;
+  --operator: #4caf50;
+  --glass: rgba(0, 0, 0, 0.05);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: var(--bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text);
+  transition: 0.3s ease;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 400px;
+  padding: 20px;
+}
+
+.mode-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.mode-toggle button {
+  padding: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: none;
+  background: var(--glass);
+  border-radius: 10px;
+  color: var(--text);
+}
+
+.calculator {
+  background: var(--glass);
+  border-radius: 20px;
+  padding: 20px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+}
+
+input {
+  width: 100%;
+  padding: 20px;
+  font-size: 2rem;
+  color: var(--text);
+  background: transparent;
+  border: none;
+  outline: none;
+  text-align: right;
+  margin-bottom: 20px;
+  background-color: var(--input-bg);
+  border-radius: 10px;
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.button {
+  padding: 20px;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 15px;
+  background: var(--input-bg);
+  color: var(--text);
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: var(--btn-hover);
+  transform: scale(1.05);
+}
+
+.equalBtn {
+  background-color: var(--equal);
+  color: #fff;
+}
+
+.operator {
+  color: var(--operator);
+  font-weight: bold;
+}
+
+.history {
+  background: var(--glass);
+  padding: 15px;
+  border-radius: 12px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.history h2 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.history ul {
+  list-style: none;
+}
+
+.history li {
+  padding: 5px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
