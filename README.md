@@ -2,8 +2,6 @@
 
 A sleek and modern calculator built using **HTML, CSS, and JavaScript** with support for keyboard input, light/dark mode toggle, and a calculation history panel.
 
-![Calculator Screenshot](https://via.placeholder.com/600x300.png?text=Advanced+Calculator+Preview) <!-- Replace with real screenshot if uploading -->
-
 ---
 
 ### ✨ Features
