@@ -81,7 +81,3 @@ This project is licensed under the **MIT License**.
 
 **Author:** Muhammad Asim Hanif
 **GitHub:** [@codedbyasim](https://github.com/codedbyasim)
-
----
-
-Let me know if you'd like the README in **Urdu** or want to deploy it on **GitHub Pages**!
