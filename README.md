@@ -30,7 +30,7 @@ A sleek and modern calculator built using **HTML, CSS, and JavaScript** with sup
 1. **Clone the repository**
 
    ```bash
-   git clone [https://github.com/yourusername/advanced-calculator.git](https://github.com/codedbyasim/Calculator-in-JS)
+   git clone https://github.com/codedbyasim/Calculator-in-JS
    cd Calculator-in-JS
    ```
 
@@ -80,7 +80,7 @@ This project is licensed under the **MIT License**.
 ### 📬 Contact
 
 **Author:** Muhammad Asim Hanif
-**GitHub:** [@yourusername](https://github.com/codedbyasim)
+**GitHub:** [@codedbyasim](https://github.com/codedbyasim)
 
 ---
 
